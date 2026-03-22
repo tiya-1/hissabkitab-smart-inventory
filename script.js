@@ -1,8 +1,5 @@
 // script.js - Hissab-Kitab (Single-file merged + UI fixes)
-// NOTE: This file preserves all Firebase logic and function names per your request.
-// UI improvements and small JS fixes added: role-based dashboard behavior, change-password fix for demo users,
-// QR Hub uses upload/paste instead of camera scanning, price field added in add/edit forms, total_value calc,
-// Smart global search added (search by id, name, qty, price, threshold), and escapeHtml syntax fixed.
+
 
 import { initializeApp } from "https://www.gstatic.com/firebasejs/12.5.0/firebase-app.js";
 import {
